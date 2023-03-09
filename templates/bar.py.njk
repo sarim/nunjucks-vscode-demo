@@ -1,0 +1,12 @@
+import sys
+
+class {{name}}:
+    {%- for f in fruits %}
+    {{f}} = ""
+    {%- endfor %}
+
+def main():
+   f = {{name}}()
+   print(f)
+if __name__ == "__main__":
+   main()
